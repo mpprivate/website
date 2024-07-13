@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+#text-container {
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+#indices-container {
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.hidden-word {
+    background-color: rgb(79, 77, 77);
+    color: transparent;
+    padding: 2px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.revealed-word {
+    background-color: transparent;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 2px;
+}
+
+.bold-word {
+    font-weight: bold;
+}
+
+#guess-input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+
+#guess-button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
